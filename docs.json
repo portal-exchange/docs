@@ -1,0 +1,141 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "Portal Exchange Knowledge Base & Docs",
+  "colors": {
+    "primary": "#fe932b",
+    "light": "#fe932b",
+    "dark": "#fe932b"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/components",
+              "essentials/reusable-snippets"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Agent ready",
+            "pages": [
+              "agent-ready/prompt",
+              "agent-ready/visibility",
+              "agent-ready/contextual",
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ],
+            "hidden": true
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ],
+        "hidden": true
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://docs.portalexchange.cl",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://www.portalexchange.cl/blog",
+          "icon": "newspaper",
+          "color": {
+            "light": "#fe932b",
+            "dark": "#fe932b"
+          }
+        }
+      ]
+    }
+  },
+  "logo": "https://www.portalexchange.cl/favicon.svg",
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@portalexchange.cl"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/portal-exchange",
+      "instagram": "https://www.instagram.com/portalexchange.cl",
+      "facebook": "https://web.facebook.com/profile.php?id=61570436096084"
+    }
+  },
+  "description": "Platform guides, documentation and information",
+  "fonts": {
+    "family": "Poppins",
+    "weight": 400,
+    "format": "woff2"
+  },
+  "appearance": {
+    "default": "system"
+  }
+}
